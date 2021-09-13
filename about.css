@@ -1,0 +1,19 @@
+#footer{
+   
+        background-color:rgb(29, 2, 11);
+        color:rgb(9, 21, 98);
+        padding: 1% 5%;
+        text-align:center;
+        height: 20%;
+        background-image:linear-gradient(to right,#31ac70,#f5f8ba)
+        }
+#action{
+   
+    background-image:linear-gradient(to right,#9de2c1,#e2ec20)
+}        
+#features1{
+    background-image:linear-gradient(to right,#f5f8ba,rgb(102, 123, 238));
+}
+#main{
+    background-image: radial-gradient(rgb(3, 32, 34),rgb(241, 197, 230));
+}

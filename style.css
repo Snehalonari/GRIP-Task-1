@@ -1,0 +1,162 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	
+	font-family:'Times New Roman', Times, serif;
+}
+#nav-bar
+{	
+	float:left;
+		color:rgb(10, 10, 10);
+}
+.nav-link:hover{
+    background-color:rgb(105, 230, 32);
+}
+.navbar
+{
+	
+padding: 0% !important;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6868!important;
+    
+}.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6868!important;
+    
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:center;
+text-align:center;
+}
+.fa-bars
+{
+	color:rgb(19, 12, 12);
+	font-size:30px !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: left;
+background-image: linear-gradient(rgb(161, 117, 35),rgb(140, 125, 77));
+color:#fff;
+padding-top:5%;	
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6868!important;
+    
+}
+
+
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 8% 8%;
+}
+ #features
+ {
+	background-image:url("Gold-Investments.jpg");
+	size: 200px;
+	position:relative;
+	top: -0.5%;
+	background-repeat: no-repeat;
+    padding:90% 80%;
+	width: 100%;
+     text-align: center;
+     padding: 9% 15%;
+     background-position: center; 
+
+	
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.title::before
+{
+	content:'';
+	background-image: radial-gradient(blue);
+	size: 200px;
+	position: relative;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#044e3d;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#40f76e,#f7c0f6)
+	
+}
+/* Action*/
+  #action{
+    background-color:rgb(113, 133, 5);
+    padding: 2.5% 2%;
+    text-align:center;
+    color: rgb(137, 54, 139);	
+  }
+  
+   
+  .main{
+    font-size: 3rem;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10%;
+  background-color: rgb(250, 247, 249);
+  margin: 10px;
+  text-align: center;
+  text-decoration:rgb(30, 118, 190);
+  border-radius: 100%;
+ 
+}
+.fa-github{
+	color: black;
+}
+.fa-linkedIn{
+	color: blue;
+}
+#footer{
+	background-image: linear-gradient(rgb(242, 245, 228),rgb(235, 23, 23));
+    color:rgb(19, 17, 17);
+    padding: 1% 1%;
+    text-align:center;
+	height: 21%;
+	
+     }
